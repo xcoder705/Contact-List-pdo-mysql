@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'ubuntulight';
+  src: url('../fonts/ubuntu-l-webfont.woff2') format('woff2'),
+       url('../fonts/ubuntu-l-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ------------- GENERAL STYLES -----------------*/
+
+.container-index {height: 100vh; font-family: 'ubuntulight';}
+a {text-decoration: none; color: #404040;}
+.tr-table:nth-child(odd){background-color: aliceblue;}
+.col-icons-index {height: 100vh;}
+.message {background: #c0dc70;}
+
+.container-table {
+  width: 75%;
+  box-shadow: 10px 10px 10px #909090;
+  padding: 20px;
+  background: #f7f7f7;
+  font-family: 'ubuntulight';
+  margin-top: 80px;
+  border: 1px solid lightgray;
+}
+
+/* ------------------ FORM STYLES -------------------- */
+
+.form-control {
+  border: 0px;
+  border-bottom: 1px solid #909090;
+}
+.form-label {
+  font-weight: bold;
+}
+.input-search {
+  width: 100%;
+}
+.button-search {
+  background: #f7f7f7;
+  border: 0px;
+  float: right;
+  padding: 0px;
+}
+.btn-yellow {background: #eec974;}
+.btn-green {background: #A8CB49;}
+.btn-red {background: #F04444; color: #f7f7f7;}
+
+/* ------------------ ICONS STYLES -------------------- */
+
+.icon-find {width: 175px;}
+.icon-search {width: 35px;}
+.icon-form, .icon-mail {width: 30px; padding-right: 3px;}
+.icon-mail {margin-right: 5px;}
+.icon-back {
+  position: absolute;
+  width: 80px;
+  top: 10px;
+  left: 10px;
+}
+
+/* --------------- PC STYLE -----------------*/
+
+@media screen and (min-width: 992px) {
+ .container-table {padding: 20px;}
+ .only-mobile {display: none;}
+ .icon-list {height: 225px; margin-right: 50px;}
+ .icon-new-contact {height: 225px; margin-left: 50px;}
+}
+
+/* --------------- TABLET LANDSCAPE STYLE -----------------*/
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+ .pc-table-title, .pc-table, .no-mobile {display: none;}
+ .container-table {
+  font-size: 16px;
+  width: 80%;
+  margin-top: 100px; 
+}
+ .icon-back {width: 50px;}
+ .icon-list {height: 200px; margin-right: 50px;}
+ .icon-new-contact {height: 200px; margin-left: 50px;}
+}
+
+/* --------------- TABLET STYLE -----------------*/
+
+@media all and (min-width: 575px) and (max-width: 768px) {
+ .pc-table-title, .pc-table, .no-mobile {display: none;}
+ .container-table {
+  font-size: 16px;
+  width: 85%;
+  margin-top: 100px; 
+}
+ .icon-back {width: 50px;}
+ .icon-search {display: none;}
+ .icon-list {height: 200px; margin-right: 50px;}
+ .icon-new-contact {height: 200px; margin-left: 50px;}
+}
+
+/* --------------- MOBILE STYLE -----------------*/
+
+@media all and (max-width: 575px) {
+ .icon-search {display: none;}
+ .pc-table-title, .pc-table, .no-mobile {display: none;}
+ body {background: #f7f7f7;}
+ .container-table {
+  font-size: 16px;
+  margin-top: 100px;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+}
+ .icon-back {width: 50px;}
+ .icon-list {height: 200px; margin-bottom: 30px;}
+ .icon-new-contact {height: 200px; margin-top: 30px;}
+}
+
