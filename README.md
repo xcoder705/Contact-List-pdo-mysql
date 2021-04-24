@@ -67,6 +67,3 @@ In the file "connexio_pdo_mysql.php" are shown the data to customize in order to
 
 PS: The base icons have been created by Sora <andrea.soragna@alice.it> and are GPL licensed. Some of the icons have been redesigned for this agenda.
 
-Translated with www.DeepL.com/Translator (free version)
-
-
