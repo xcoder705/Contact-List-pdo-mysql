@@ -1,4 +1,4 @@
-<?php require_once("connexio_pdo_mysql.php"); ?> <!-- Comprovat -->
+<?php require_once("connexio_pdo_mysql.php"); ?> 
 
 
 <!doctype html>
