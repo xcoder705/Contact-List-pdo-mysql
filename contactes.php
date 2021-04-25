@@ -11,7 +11,7 @@
 
 <div class="d-flex">
 
-    <a href="index-agenda.php"><img class="icon-back" src="img/go-previous.svg" alt=""></a>
+    <a href="index.php"><img class="icon-back" src="img/go-previous.svg" alt=""></a>
 
 <div class="container-lg container-table align-items-center">
 
